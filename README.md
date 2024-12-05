@@ -31,3 +31,11 @@ Tools	Automation, observability platforms	Manual processes, monitoring tools
 Involvement	Embedded in system architecture	Limited to operational roles**
 
 
+
+
+Example:
+
+
+In a usual IT environment, downtime can result in lengthy resolution periods while teams investigate and manually restore services. In contrast, SRE employs automated rollback techniques and predictive monitoring to proactively reduce downtime.
+
+
