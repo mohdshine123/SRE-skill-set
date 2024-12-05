@@ -1,3 +1,4 @@
+#https://signoz.io/guides/sre-best-practices/
 **1. Establish and Measure Service Level Objectives (SLOs)**
 Service Level Objectives (SLOs) are important to SRE methods, serving as a common language for engineering teams and business stakeholders. They are measurable objectives for service dependability, allowing teams to focus on user-centric outcomes. A well-defined SLO may help drive prioritization, influence architectural decisions, and create team trust by setting clear expectations.
 
