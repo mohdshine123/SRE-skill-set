@@ -14,7 +14,12 @@ How SRE Differs from Traditional IT Operations
 
 How SRE Differs from Traditional IT Operations
 **Aspect	SRE	Traditional IT Operations
-Focus	Proactive design and maintenance	
+Focus	Proactive design and maintenance
+
 Reactive issue resolution
+
 Tools	Automation, observability platforms	Manual processes, monitoring tools
+
 Involvement	Embedded in system architecture	Limited to operational roles**
+
+
