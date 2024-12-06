@@ -143,14 +143,23 @@ For example, a streaming platform might utilize feature flags to launch a new re
 
 Define Clear Metrics: Determine what "success" entails—low mistake rates, great user happiness, or consistent performance. Some of the key metrics can be:
 Error rates (e.g., a 1% error threshold might trigger a rollback).
+
 Response times (e.g., if the average response time exceeds 2 seconds for more than 10% of requests, trigger a rollback).
+
 User satisfaction (e.g., user complaints or negative feedback surpassing a predefined number).
+
 Automated Rollbacks: Configure systems to revert changes automatically if mistakes exceed a certain level. The threshold can be defined using:
+
 Error rates: For instance, if the error rate exceeds 5% over a 10-minute window, the system can trigger an automatic rollback.
+
 Performance degradation: If performance metrics (e.g., CPU usage or latency) degrade past a specific threshold, roll back to the previous stable state.
+
 Business KPIs: If specific KPIs (e.g., conversion rates, revenue) drop below a defined threshold within a specified timeframe, initiate the rollback process.
+
 User feedback: Encourage early adopters to identify the pain points for the mass deployment. Collect user feedback based on the following:
+
 Surveys: Immediate post-deployment surveys will be used to gauge user sentiment.
+
 Feature Flags in Action:
 
 Separate when a feature is delivered from when it is made available to consumers, resulting in faster, safer updates.
